@@ -1,1 +1,96 @@
-/*test*/
+:root{
+    background-color: #06b6d4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Main div */
+
+.badge-main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fb7185;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+/* ******** */
+
+
+/* Text with a badge */
+
+.txt-with-badge{
+    position: relative;
+    top: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-family: monospace;
+} 
+
+/* ******************* */
+
+/* Text with a large badge */
+
+.txt-with-lg-badge{
+    position: relative;
+    top: -15px;
+    padding: 10px 15px;
+    right: 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-family: monospace;
+    font-size:x-large
+} 
+
+/* ******************* */
+
+/* Button with a badge on the left */
+
+.btn-action{
+    background-color: #fb923c;
+    height: 40px;
+    width: 100px;
+    border-radius: 7%;
+    margin: 10px;
+}
+
+.btn-with-badge-left{
+    position: relative;
+    top: -20px;
+    right: 120px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+
+}
+
+/* ******************* */
+
+/* Button toggles badge visibility */
+
+.btn-toggle{
+    background-color: #fb923c;
+    height: 40px;
+    width: 100px;
+    border-radius: 7%;
+    margin: 10px;
+}
+
+.btn-toggle-badge{
+    position: relative;
+    top: -20px;
+    right: 30px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
