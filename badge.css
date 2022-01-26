@@ -17,6 +17,7 @@
     width: 50%;
     margin: auto;
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 /* ******** */
@@ -89,6 +90,21 @@
     position: relative;
     top: -20px;
     right: 30px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+/* ******************* */
+
+/* Icon with a badge */
+
+.icon-badge
+{
+    position: relative;
+    top: -20px;
+    right: 10px;
     padding: 5px 10px;
     border-radius: 50%;
     background: red;
