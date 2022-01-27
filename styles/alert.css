@@ -1,0 +1,104 @@
+/* stylesheet for alert components */
+
+:root{
+    background-color: #06b6d4;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main div */
+
+.main-alerts{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* ******** */
+
+
+/* alerts style */
+span{
+    align-items: center;
+}
+
+.alert-primary{
+    background-color: #cfe2ff;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-secondary{
+    background-color: rgb(190, 186, 186);
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-success{
+    background-color: #d1e7dd;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-danger{
+    background-color: red;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-warning{
+    background-color: yellow;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-info{
+    background-color: lightblue;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-light{
+    background-color: rgb(247, 236, 236);
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alert-dark{
+    background-color: darkcyan;
+    height: 2rem;
+    width: 80%;
+    padding: 0.25rem;
+    border-radius: 10px;
+    text-align: center;
+}
