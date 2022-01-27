@@ -1,0 +1,92 @@
+:root{
+    background-color: #06b6d4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main div */
+
+.main-button{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fb7185;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/* ******** */
+
+.btn-primary, .btn-secondary, .btn-success, .btn-danger, .btn-warning, .btn-info, .btn-light, .btn-dark{
+    width: 7.25rem;
+    height: 2.75rem;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #0747a7;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-secondary{
+    background-color: grey;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-success{
+    background-color: green;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-danger{
+    background-color: red;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-warning{
+    background-color: yellow;
+    color: blue;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-info{
+    background-color: #1e75f7;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-light{
+    background-color: snow;
+    color: black;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
+
+.btn-dark{
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid;
+    border-color: lightpink;
+    border-radius: 0.25rem;
+}
