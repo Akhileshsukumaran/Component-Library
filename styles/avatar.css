@@ -1,0 +1,66 @@
+
+
+.btn-main{
+    display: flex;
+    flex-direction: column;
+}
+
+/* img avatar */
+
+.avatar-lg{
+    border-radius: 50%;
+}
+
+.avatar-md{
+    border-radius: 50%;
+}
+
+.avatar-sm{
+    border-radius: 50%;
+}
+
+.avatar-xsm{
+    border-radius: 50%;
+}
+
+/* text avatar */
+
+.avatar-txt-lg{
+    border-radius: 50%;
+    background-color: lightslategray;
+    font-size:10vw;
+}
+
+.avatar-text-lg-div{
+    width: fit-content;
+}
+
+.avatar-txt-md{
+    border-radius: 50%;
+    background-color: lightslategray;
+    font-size:5vw;
+}
+
+.avatar-text-md-div{
+    width: fit-content;
+}
+
+.avatar-txt-sm{
+    border-radius: 50%;
+    background-color: lightslategray;
+    font-size:3vw;
+}
+
+.avatar-text-sm-div{
+    width: fit-content;
+}
+
+.avatar-txt-xsm{
+    border-radius: 50%;
+    background-color: lightslategray;
+    font-size:2vw;
+}
+
+.avatar-text-xsm-div{
+    width: fit-content;
+}
