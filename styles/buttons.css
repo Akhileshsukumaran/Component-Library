@@ -90,3 +90,48 @@
     border-color: lightpink;
     border-radius: 0.25rem;
 }
+
+
+/* .btn-primary :hover{
+    color: aliceblue;
+} */
+
+.btn-primary:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-secondary:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-success:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-danger:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-warning:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-info:hover {
+    background-color: snow;
+    color: black;
+  }
+
+  .btn-light:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .btn-dark:hover {
+    background-color: white;
+    color: black;
+  }
